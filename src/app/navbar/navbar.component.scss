@@ -1,0 +1,37 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #e42f2f;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+// div {
+//     // width: 100px;
+//     // height: 100px;
+//     // background-color: red;
+//     animation-name: example;
+//     animation-duration: 4s;
+//   }
+  
+  // @keyframes example {
+  //   from {background-color:random();}
+  //   to {background-color:random(10);}
+  // }
