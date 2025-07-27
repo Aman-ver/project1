@@ -11,9 +11,10 @@ body {
   background: #f0faff;
 }
 .nav {
-  position: fixed;
+  position: relative;
   top: 0;
   left: 0;
+  z-index: 20px;
   width: 100%;
   padding: 15px 200px;
   background: #4a98f7;
