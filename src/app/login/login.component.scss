@@ -1,10 +1,66 @@
-#loginlogin-container {
+
+body {
+  background-image: url('assets/login-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 90vh;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+
+.login-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  background-color: #f0f0f0;
+  height: 90vh;
   align-items: center;  
   align-content: center;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-color: transparent;
+  z-index: 1;
+  background: rgba(255,255,255,0.6); 
+  border-radius: 10px;
+  padding: 2em;
+  box-shadow: 0 0 40px rgba(0,0,0,0.2);
+  }
+.login-container h1 {
+  text-align: center;
+}
+
+.login-container form > div {
+  margin-bottom: 1em;
+}
+
+.login-container label {
+  display: block;
+  margin-bottom: 0.25em;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 0.5em;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+}
+
+.login-container button {
+  width: 48%;
+  padding: 0.75em;
+  margin-top: 1em;
+  border: none;
+  border-radius: 5px;
+  background: #1976d2;
+  color: #fff;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.login-container .signup-button {
+  background: #43a047;
+  margin-left: 4%;
 }
