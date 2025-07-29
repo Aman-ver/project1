@@ -17,7 +17,7 @@ body {
   z-index: 20px;
   width: 100%;
   padding: 15px 200px;
-  background: #4a98f7;
+  background: #9280e5;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 .nav,
@@ -61,7 +61,7 @@ a {
   opacity: 0;
   pointer-events: none;
   transition: all 0.2s linear;
-}
+} 
 .nav.openSearch .search-box {
   opacity: 1;
   pointer-events: auto;
